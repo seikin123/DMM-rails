@@ -42,6 +42,7 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'rubocop-airbnb'
 end
 
 group :test do
@@ -56,4 +57,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 
-gem "refile-mini_magick" #サイズ調整など画像加工を行うgem
+gem "refile-mini_magick" # サイズ調整など画像加工を行うgem
